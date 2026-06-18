@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Leylines",
+  title: "Leyline",
   description:
     "Destiny 2 tools and official references, organized by task.",
 };

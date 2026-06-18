@@ -1,4 +1,4 @@
-# Leylines
+# Leyline
 
 A fast static Next.js directory for Destiny 2 tools, official Bungie update
 links, and Monument of Triumph resources.

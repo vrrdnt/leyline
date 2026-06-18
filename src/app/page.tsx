@@ -150,13 +150,13 @@ export default function Home() {
           <a
             href="#top"
             className="flex items-center gap-3 outline-none focus-visible:ring-2 focus-visible:ring-amber-300/40"
-            aria-label="Leylines home"
+            aria-label="Leyline home"
           >
             <span className="flex size-9 items-center justify-center rounded-md border border-amber-300/30 bg-amber-300/10 text-amber-200">
               <Compass className="size-5" />
             </span>
             <span className="text-sm font-semibold uppercase tracking-[0.24em] text-zinc-200">
-              Leylines
+              Leyline
             </span>
           </a>
           <div className="flex items-center gap-2 text-sm">
@@ -185,7 +185,7 @@ export default function Home() {
             Updated for Monument of Triumph
           </p>
           <h1 className="text-balance mt-4 max-w-4xl text-3xl font-semibold tracking-normal text-zinc-50 sm:text-5xl">
-            Leylines
+            Leyline
           </h1>
           <p className="mt-4 max-w-2xl text-base leading-7 text-zinc-300 sm:text-lg">
             Destiny 2 tools and official references, organized by task.
@@ -276,7 +276,7 @@ export default function Home() {
 
       <footer className="border-t border-white/10 px-4 py-8 sm:px-6 lg:px-8">
         <div className="mx-auto flex max-w-7xl flex-col gap-3 text-sm leading-6 text-zinc-500 sm:flex-row sm:items-center sm:justify-between">
-          <p>Leylines is an unofficial fan-made link directory.</p>
+          <p>Leyline is an unofficial fan-made link directory.</p>
           <p>
             Destiny 2 and related media are trademarks and property of Bungie.
           </p>
