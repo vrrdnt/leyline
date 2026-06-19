@@ -1,5 +1,6 @@
 export const categoryIds = [
   "official",
+  "reference",
   "inventory",
   "builds",
   "weapons",
@@ -13,6 +14,7 @@ export type CategoryId = (typeof categoryIds)[number];
 
 export type CategoryIcon =
   | "badge"
+  | "bookOpen"
   | "package"
   | "hammer"
   | "crosshair"
@@ -36,6 +38,13 @@ export const categories: ToolCategory[] = [
     description: "Bungie update notes, support pages, and player-facing resources.",
     icon: "badge",
     accent: "text-amber-300 border-amber-300/35 bg-amber-300/10",
+  },
+  {
+    id: "reference",
+    label: "Reference",
+    description: "Lore archives, guide hubs, and current-update explainers.",
+    icon: "bookOpen",
+    accent: "text-sky-200 border-sky-200/35 bg-sky-200/10",
   },
   {
     id: "inventory",

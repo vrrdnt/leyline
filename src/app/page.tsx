@@ -2,6 +2,7 @@ import {
   ArrowUpRight,
   BadgeCheck,
   BarChart3,
+  BookOpen,
   Compass,
   Crosshair,
   Hammer,
@@ -17,6 +18,7 @@ import { tools, type ToolLink } from "@/content/tools";
 
 const iconMap: Record<CategoryIcon, LucideIcon> = {
   badge: BadgeCheck,
+  bookOpen: BookOpen,
   package: Package,
   hammer: Hammer,
   crosshair: Crosshair,

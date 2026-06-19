@@ -90,6 +90,13 @@ export const tools: ToolLink[] = [
     tags: ["checklist", "vault", "progress"],
   },
   {
+    title: "Destiny Recipes",
+    href: "https://destinyrecipes.com/",
+    category: "inventory",
+    description: "Vault cleaner, loot companion, checklists, and power progress.",
+    tags: ["vault", "loot", "checklist"],
+  },
+  {
     title: "Mobalytics Builds",
     href: "https://mobalytics.gg/destiny-2/builds",
     category: "builds",
@@ -167,6 +174,22 @@ export const tools: ToolLink[] = [
     tags: ["maps", "triumphs", "collections"],
   },
   {
+    title: "Ishtar Collective",
+    href: "https://www.ishtar-collective.net/",
+    category: "reference",
+    description: "Lore archive, releases, books, transcripts, and item text.",
+    tags: ["lore", "archive", "releases"],
+    monumentRelevant: true,
+  },
+  {
+    title: "Kyber's Corner",
+    href: "https://kyberscorner.com/destiny2/",
+    category: "reference",
+    description: "Weekly reset, Xur, Trials, activity guides, and infographics.",
+    tags: ["guides", "weekly reset", "infographics"],
+    monumentRelevant: true,
+  },
+  {
     title: "Raid Report",
     href: "https://raid.report/",
     category: "activities",
@@ -182,6 +205,13 @@ export const tools: ToolLink[] = [
     description: "Dungeon clears, speedruns, sherpas, leaderboards, and weekly progress.",
     tags: ["dungeons", "leaderboards", "sherpas"],
     monumentRelevant: true,
+  },
+  {
+    title: "D2Checkpoint",
+    href: "https://d2checkpoint.com/",
+    category: "activities",
+    description: "Raid and dungeon checkpoint bot status and access links.",
+    tags: ["checkpoints", "raids", "dungeons"],
   },
   {
     title: "activities.report",
@@ -219,6 +249,13 @@ export const tools: ToolLink[] = [
     tags: ["raids", "analytics", "profiles"],
   },
   {
+    title: "Time Wasted on Destiny",
+    href: "https://wastedondestiny.com/",
+    category: "stats",
+    description: "Active playtime, activity breakdowns, titles, and leaderboards.",
+    tags: ["playtime", "leaderboards", "profiles"],
+  },
+  {
     title: "TodayInDestiny Eververse",
     href: "https://www.todayindestiny.com/everversecalendar",
     category: "cosmetics",
@@ -246,5 +283,12 @@ export const tools: ToolLink[] = [
     category: "social",
     description: "Clan raid and dungeon completion tracking.",
     tags: ["clan", "raids", "dungeons"],
+  },
+  {
+    title: "Charlemagne",
+    href: "https://warmind.io/",
+    category: "social",
+    description: "Destiny Discord bot for clans, stats, leaderboards, and automation.",
+    tags: ["discord", "clans", "stats"],
   },
 ];
