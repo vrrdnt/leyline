@@ -146,6 +146,7 @@ export const tools: ToolLink[] = [
   {
     title: "Destiny Report",
     href: "https://destiny.report/",
+    iconUrl: "https://destiny.report/a/3044c57c.png",
     category: "weapons",
     description: "Weapon search by perk, frame, damage type, ammo, and source.",
     tags: ["weapon search", "perks", "sources"],

@@ -14,6 +14,11 @@ const nextConfig: NextConfig = {
         hostname: "d2armorpicker.com",
         pathname: "/favicon.ico",
       },
+      {
+        protocol: "https",
+        hostname: "destiny.report",
+        pathname: "/a/3044c57c.png",
+      },
     ],
   },
 };
