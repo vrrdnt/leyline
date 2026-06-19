@@ -35,16 +35,46 @@ body {
 }
 
 .page-shell {
+  position: relative;
+  isolation: isolate;
+  overflow-x: clip;
+  background: var(--background);
+}
+
+.page-shell::before {
+  content: "";
+  position: fixed;
+  inset: -18px;
+  z-index: -2;
+  pointer-events: none;
+  background-image: url("/leyline-background.jpg");
+  background-position: center top;
+  background-size: cover;
+  filter: blur(5px);
+  opacity: 0.38;
+  transform: scale(1.03);
+}
+
+.page-shell::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
   background:
-    linear-gradient(180deg, rgba(245, 241, 232, 0.04), rgba(8, 9, 11, 0) 420px),
+    linear-gradient(
+      180deg,
+      rgba(8, 9, 11, 0.62),
+      rgba(8, 9, 11, 0.84) 520px,
+      rgba(8, 9, 11, 0.92)
+    ),
     repeating-linear-gradient(
       90deg,
       rgba(255, 255, 255, 0.035) 0,
       rgba(255, 255, 255, 0.035) 1px,
       transparent 1px,
       transparent 96px
-    ),
-    var(--background);
+    );
 }
 
 .text-balance {
