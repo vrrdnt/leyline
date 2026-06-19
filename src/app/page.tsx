@@ -278,9 +278,30 @@ export default function Home() {
 
       <footer className="border-t border-white/10 px-4 py-8 sm:px-6 lg:px-8">
         <div className="mx-auto flex max-w-7xl flex-col gap-3 text-sm leading-6 text-zinc-500 sm:flex-row sm:items-center sm:justify-between">
-          <p>Leyline is an unofficial fan-made link directory.</p>
           <p>
-            Destiny 2 and related media are trademarks and property of Bungie.
+            Leyline is an unofficial fan-made link directory. Source:{" "}
+            <a
+              href="https://github.com/vrrdnt/leyline"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-zinc-300 underline decoration-white/20 underline-offset-4 transition hover:text-zinc-50"
+            >
+              vrrdnt/leyline
+            </a>
+            .
+          </p>
+          <p>
+            Background image from{" "}
+            <a
+              href="https://press.bungie.com/Destiny-2#?tab=screenshots-1&scrollto=Abilities"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-zinc-300 underline decoration-white/20 underline-offset-4 transition hover:text-zinc-50"
+            >
+              Bungie Press
+            </a>
+            . Destiny 2 and related media are trademarks and property of
+            Bungie.
           </p>
         </div>
       </footer>
